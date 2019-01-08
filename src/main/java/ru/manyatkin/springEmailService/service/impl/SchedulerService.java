@@ -11,7 +11,7 @@ import ru.manyatkin.springEmailService.service.UserRepositoryService;
 import java.time.LocalDate;
 import java.util.List;
 
-@Slf4j
+@Slf4j //логгер от lombok не работает, как и getter в User
 @Service
 public class SchedulerService {
 
